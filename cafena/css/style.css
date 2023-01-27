@@ -1,0 +1,1906 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&family=ZCOOL+XiaoWei&display=swap');
+
+.header-bg {
+	background: #F4F1EE;
+}
+
+.header-wrapper {
+	max-width: 1128px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.header-nav {
+	display: flex;
+}
+
+.header-nav-1 {
+	margin-right: 122px;
+	margin-top: 45px;
+}
+
+.header-nav-1__list {
+	display: flex;
+	gap: 50px;
+}
+
+.header-nav-1__list__item {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.header-logo {
+	margin-top: 33px;
+	margin-right: 78px;
+}
+
+.header-logo__img a img {
+	position: relative;
+	left: 18px;
+}
+
+.header-nav-2 {
+	margin-top: 48px;
+	margin-right: 72px;
+}
+
+.header-nav-2__list {
+	display: flex;
+	gap: 50px;
+}
+
+.header-nav-2__list__item {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.header-search {
+	margin-top: 46px;
+	margin-right: 68.2px;
+}
+
+.header-burger-menu {
+	margin-top: 40px;
+}
+
+.header-burger-menu {
+    width: 27px;
+    height: 15.7px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.header-burger-menu span {
+    display: block;
+    position: absolute;
+    height: 1.88px;
+    width: 27px;
+    background: #000000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.header-burger-menu span:nth-child(1) {
+    top: 10.97px;
+}
+
+.header-burger-menu span:nth-child(2) {
+    top: 18px;
+}
+
+.header-burger-menu span:nth-child(3) {
+	top: 18px;
+}
+
+.header-burger-menu span:nth-child(4) {
+    top: 25.03px;
+}
+
+.header-burger-menu.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.header-burger-menu.open span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.header-burger-menu.open span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.header-burger-menu.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.block-1-bg {
+	background: #F4F1EE;
+}
+
+.block-1-wrapper {
+	max-width: 1123px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.block-1__content {
+	display: flex;
+}
+
+.block-1__content__info {
+	margin-top: 168px;
+}
+
+.block-1__content__info__title {
+	width: 646px;
+}
+
+.block-1__content__info__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 70px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-1__content__info__text {
+	margin-top: 33px;
+}
+
+.block-1__content__info__text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #404040;
+}
+
+.block-1__content__info__buttons {
+	margin-top: 55px;
+}
+
+#block-1__button-1 {
+	background: #232020;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+	width: 135px;	
+	height: 41px;
+	margin-right: 24px;
+}
+
+#block-1__button-1__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+#block-1__button-2 {
+	border: 1px solid #D48A5C;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+	width: 135px;
+	height: 41px;
+}
+
+#block-1__button-2__text {
+	font-family: 'Open Sans';	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.block-1__content__img {
+	margin-top: 89px;
+}
+
+.block-1__gallery {
+	display: flex;
+	gap: 27px;
+	margin-top: 166px;
+	padding-bottom: 81px;
+}
+
+.block-1__gallery__item-1 {
+	position: relative;
+}
+
+.block-1__gallery__item-1__img img {
+	position: absolute;
+	top: -20px;
+	left: 16px;
+}
+
+.block-1__gallery__item-1__vector img {
+	position: absolute;
+	top: -20.7px;
+	left: 16px;
+}
+
+.block-1__gallery__item-1__number {
+	position: absolute;
+	top: -32px;
+	left: 33px;
+}
+
+.block-1__gallery__item-1__number p {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-1__gallery__item-1__title {
+	position: absolute;
+	top: -17px;
+	left: 33px;
+}
+
+.block-1__gallery__item-1__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-1__gallery__item-1__text {
+	position: absolute;
+	top: 179px;
+	left: 33px;
+}
+
+.block-1__gallery__item-1__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-1__gallery__item-2 {
+	position: relative;
+}
+
+.block-1__gallery__item-2__img img {
+	position: absolute;
+	top: -20px;
+	left: 16px;
+}
+
+.block-1__gallery__item-2__vector img {
+	position: absolute;
+	top: -20.7px;
+	left: 16px;
+}
+
+.block-1__gallery__item-2__number {
+	position: absolute;
+	top: -32px;
+	left: 33px;
+}
+
+.block-1__gallery__item-2__number p {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-1__gallery__item-2__title {
+	position: absolute;
+	top: -17px;
+	left: 33px;
+}
+
+.block-1__gallery__item-2__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-1__gallery__item-2__text {
+	position: absolute;
+	top: 179px;
+	left: 33px;
+}
+
+.block-1__gallery__item-2__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-1__gallery__item-3 {
+	position: relative;
+}
+
+.block-1__gallery__item-3__img img {
+	position: absolute;
+	top: -20px;
+	left: 16px;
+}
+
+.block-1__gallery__item-3__vector img {
+	position: absolute;
+	top: -20.7px;
+	left: 16px;
+}
+
+.block-1__gallery__item-3__number {
+	position: absolute;
+	top: -32px;
+	left: 33px;
+}
+
+.block-1__gallery__item-3__number p {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-1__gallery__item-3__title {
+	position: absolute;
+	top: -17px;
+	left: 33px;
+}
+
+.block-1__gallery__item-3__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-1__gallery__item-3__text {
+	position: absolute;
+	top: 179px;
+	left: 33px;
+}
+
+.block-1__gallery__item-3__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-2 {
+	background: url("..//images/main/block-2/coffee.png") no-repeat;
+	text-align: center;
+}
+
+.block-2__title {
+	padding-top: 264px;
+}
+
+.block-2__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.block-2__text {
+	margin-top: 10px;
+}
+
+.block-2__text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #141313;
+}
+
+.block-2__button {
+	margin-top: 10px;
+	padding-bottom: 252px;
+}
+
+#block-2__button {
+	background: #232020;
+	width: 152px;
+	height: 46px;
+}
+
+#block-2__button__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-3 {
+	text-align: center;
+}
+
+.block-3-bg {
+	background: #F6F2EE;
+}
+
+.block-3__button {
+	padding-top: 141px;
+}
+
+#block-3__button {
+	width: 165px;
+	height: 42px;
+	background: #232020;
+}
+
+#block-3__button__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-3__title {
+	margin-top: 14px;
+}
+
+.block-3__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods {
+	margin-top: 47px;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.block-3__goods__row-1 {
+	display: flex;
+	gap: 30px;
+}
+
+.block-3__goods__row-1__vicaragua {
+	display: flex;
+} 
+
+.block-3__goods__row-1__vicaragua__img img {
+	border-radius: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.block-3__goods__row-1__vicaragua__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px;
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-1__vicaragua__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-1__vicaragua__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-1__vicaragua__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-3__goods__row-1__espresso {
+	display: flex;
+}
+
+.block-3__goods__row-1__espresso__img img {
+	border-radius: 100%;
+	position: relative; 
+	z-index: 1;
+}
+
+.block-3__goods__row-1__espresso__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px; 
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-1__espresso__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-1__espresso__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-1__espresso__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-3__goods__row-2 {
+	display: flex;
+	margin-top: 34px;
+	gap: 30px;
+}
+
+.block-3__goods__row-2__vicaragua {
+	display: flex;
+} 
+
+.block-3__goods__row-2__vicaragua__img img {
+	border-radius: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.block-3__goods__row-2__vicaragua__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px;
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-2__vicaragua__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-2__vicaragua__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-2__vicaragua__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-3__goods__row-2__ethiopia {
+	display: flex;
+}
+
+.block-3__goods__row-2__ethiopia__img img {
+	border-radius: 100%;
+	position: relative; 
+	z-index: 1;
+}
+
+.block-3__goods__row-2__ethiopia__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px; 
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-2__ethiopia__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-2__ethiopia__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-2__ethiopia__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-3__goods__row-3 {
+	display: flex;
+	gap: 30px;
+	margin-top: 34px;
+	padding-bottom: 94px;
+}
+
+.block-3__goods__row-3__espresso {
+	display: flex;
+} 
+
+.block-3__goods__row-3__espresso__img img {
+	border-radius: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.block-3__goods__row-3__espresso__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px;
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-3__espresso__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-3__espresso__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-3__espresso__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-3__goods__row-3__vicaragua {
+	display: flex;
+}
+
+.block-3__goods__row-3__vicaragua__img img {
+	border-radius: 100%;
+	position: relative; 
+	z-index: 1;
+}
+
+.block-3__goods__row-3__vicaragua__content {
+	border: 3px solid #414141;
+	align-self: center;
+	width: 410px; 
+	height: 114px;
+	z-index: 0;
+	position: relative;
+	right: 24px;
+}
+
+.block-3__goods__row-3__vicaragua__text {
+	padding-top: 15px;
+}
+
+.block-3__goods__row-3__vicaragua__text a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #232020;
+}
+
+.block-3__goods__row-3__vicaragua__price a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D48A5C;
+	margin-left: 300px;
+}
+
+.block-4-bg {
+	background: #FFFFFF;
+}
+
+.block-4-wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.block-4__content {
+	display: flex;
+	gap: 54px;
+}
+
+.block-4__content__text {
+	padding-top: 170px;
+}
+
+.block-4__content__text__title {
+	width: 660px;
+}
+
+.block-4__content__text__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-4__content__text__text {
+	margin-top: 34px;
+}
+
+.block-4__content__text__text p:first-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #6F6F6F;
+}
+
+.block-4__content__text__text p:last-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #141313;
+	margin-top: 7px;
+}
+
+.block-4__content__text__button {
+	margin-top: 33px;
+}
+
+#block-4__button {
+	background: #232020;
+	box-shadow: 0px 2px 10px rgba(18, 18, 18, 0.25);
+	width: 138px;
+	height: 37px;
+}
+
+#block-4__button__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-4__content__img {
+	position: relative;
+	padding-bottom: 37px;
+}
+
+.block-4__content__img__bg-2 img {
+	position: absolute;
+	top: 45px;
+	left: 68px;
+}
+
+.block-4__content__img__teapot img {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+}
+
+.block-5-bg {
+	background: #F7F2EE;
+}
+
+.block-5-wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.block-5__best-product {
+	display: flex;
+	gap: 366px;
+}
+
+.block-5__best-product__title {
+	padding-top: 91px;
+}
+
+.block-5__best-product__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__best-product__button {
+	padding-top: 99px;
+}
+
+#block-5__button-1 {
+	background: #232020;
+	box-shadow: 0px 2px 10px rgba(18, 18, 18, 0.25);
+	width: 221px;
+	height: 52px;
+}
+
+#block-5__button-1__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__goods {
+	margin-top: 54px;
+	display: flex;
+	gap: 30px;
+}
+
+.block-5__goods__vicaragua {
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	width: 350px;
+}
+
+.block-5__goods__vicaragua__img {
+	background: #13131A;
+	width: 303px;
+	height: 267px;
+	margin: 23px 24px 33px 23px;
+}
+
+.block-5__goods__vicaragua__img img {
+	padding: 31px 81px;
+}
+
+.block-5__goods__vicaragua__stars-rating p:first-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__vicaragua__stars-rating {
+	margin-top: 35px;
+	padding-left: 23px;
+	display: inline-flex;
+	gap: 4px;
+	flex-direction: row-reverse;
+}
+
+.block-5__goods__vicaragua__stars-rating__item {
+	align-self: center;
+	font-size: 18px;
+	cursor: pointer;
+	color: #dcdcdc;
+	transition: .2s;
+}
+
+.block-5__goods__vicaragua__stars-rating__item:hover, 
+.block-5__goods__vicaragua__stars-rating__item:hover ~ .block-5__goods__vicaragua__stars-rating__item {
+	color: orange;
+}
+
+.block-5__goods__vicaragua__stars-rating[data-total-value="1"] .block-5__goods__vicaragua__stars-rating__item:nth-child(n + 5),
+.block-5__goods__vicaragua__stars-rating[data-total-value="2"] .block-5__goods__vicaragua__stars-rating__item:nth-child(n + 4),
+.block-5__goods__vicaragua__stars-rating[data-total-value="3"] .block-5__goods__vicaragua__stars-rating__item:nth-child(n + 3),
+.block-5__goods__vicaragua__stars-rating[data-total-value="4"] .block-5__goods__vicaragua__stars-rating__item:nth-child(n + 2),
+.block-5__goods__vicaragua__stars-rating[data-total-value="5"] .block-5__goods__vicaragua__stars-rating__item:nth-child(n + 1) {
+	color: orange;
+}
+
+.block-5__goods__vicaragua__title {
+	margin-top: 19.93px;
+	padding-left: 23px;
+}
+
+.block-5__goods__vicaragua__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__vicaragua__price {
+	margin-top: 13px;
+	padding-left: 23px;
+	display: flex;
+	gap: 5px;
+	padding-bottom: 30px;
+}
+
+.block-5__goods__vicaragua__price__text p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__vicaragua__price__number {
+	align-self: center;
+}
+
+.block-5__goods__vicaragua__price__number p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__goods__americano {
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	width: 350px;
+}
+
+.block-5__goods__americano__img {
+	background: #13131A;
+	width: 303px;
+	height: 267px;
+	margin: 23px 24px 33px 23px;
+}
+
+.block-5__goods__americano__img img {
+	padding: 31px 81px;
+}
+
+.block-5__goods__americano__stars-rating p:first-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__americano__stars-rating {
+	margin-top: 35px;
+	padding-left: 23px;
+	display: inline-flex;
+	gap: 4px;
+	flex-direction: row-reverse;
+}
+
+.block-5__goods__americano__stars-rating__item {
+	align-self: center;
+	font-size: 18px;
+	cursor: pointer;
+	color: #dcdcdc;
+	transition: .2s;
+}
+
+.block-5__goods__americano__stars-rating__item:hover, 
+.block-5__goods__americano__stars-rating__item:hover ~ .block-5__goods__americano__stars-rating__item {
+	color: orange;
+}
+
+.block-5__goods__americano__stars-rating[data-total-value="1"] .block-5__goods__americano__stars-rating__item:nth-child(n + 5),
+.block-5__goods__americano__stars-rating[data-total-value="2"] .block-5__goods__americano__stars-rating__item:nth-child(n + 4),
+.block-5__goods__americano__stars-rating[data-total-value="3"] .block-5__goods__americano__stars-rating__item:nth-child(n + 3),
+.block-5__goods__americano__stars-rating[data-total-value="4"] .block-5__goods__americano__stars-rating__item:nth-child(n + 2),
+.block-5__goods__americano__stars-rating[data-total-value="5"] .block-5__goods__americano__stars-rating__item:nth-child(n + 1) {
+	color: orange;
+}
+
+.block-5__goods__americano__title {
+	margin-top: 19.93px;
+	padding-left: 23px;
+}
+
+.block-5__goods__americano__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__americano__price {
+	margin-top: 13px;
+	padding-left: 23px;
+	display: flex;
+	gap: 5px;
+	padding-bottom: 30px;
+}
+
+.block-5__goods__americano__price__text p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__americano__price__number {
+	align-self: center;
+}
+
+.block-5__goods__americano__price__number p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__goods__virgin {
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	width: 350px;
+}
+
+.block-5__goods__virgin__img {
+	background: #13131A;
+	width: 303px;
+	height: 267px;
+	margin: 23px 24px 33px 23px;
+}
+
+.block-5__goods__virgin__img img {
+	padding: 31px 81px;
+}
+
+.block-5__goods__virgin__stars-rating p:first-child {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__virgin__stars-rating {
+	margin-top: 35px;
+	padding-left: 23px;
+	display: inline-flex;
+	gap: 4px;
+	flex-direction: row-reverse;
+}
+
+.block-5__goods__virgin__stars-rating__item {
+	align-self: center;
+	font-size: 18px;
+	cursor: pointer;
+	color: #dcdcdc;
+	transition: .2s;
+}
+
+.block-5__goods__virgin__stars-rating__item:hover, 
+.block-5__goods__virgin__stars-rating__item:hover ~ .block-5__goods__virgin__stars-rating__item {
+	color: orange;
+}
+
+.block-5__goods__virgin__stars-rating[data-total-value="1"] .block-5__goods__virgin__stars-rating__item:nth-child(n + 5),
+.block-5__goods__virgin__stars-rating[data-total-value="2"] .block-5__goods__virgin__stars-rating__item:nth-child(n + 4),
+.block-5__goods__virgin__stars-rating[data-total-value="3"] .block-5__goods__virgin__stars-rating__item:nth-child(n + 3),
+.block-5__goods__virgin__stars-rating[data-total-value="4"] .block-5__goods__virgin__stars-rating__item:nth-child(n + 2),
+.block-5__goods__virgin__stars-rating[data-total-value="5"] .block-5__goods__virgin__stars-rating__item:nth-child(n + 1) {
+	color: orange;
+}
+
+.block-5__goods__virgin__title {
+	margin-top: 19.93px;
+	padding-left: 23px;
+}
+
+.block-5__goods__virgin__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__virgin__price {
+	margin-top: 13px;
+	padding-left: 23px;
+	display: flex;
+	gap: 5px;
+	padding-bottom: 30px;
+}
+
+.block-5__goods__virgin__price__text p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__goods__virgin__price__number {
+	align-self: center;
+}
+
+.block-5__goods__virgin__price__number p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__slider {
+	text-align: center;
+}
+
+.block-5__slider__button {
+	margin-top: 94px;
+}
+
+#block-5__button-2 {
+	background: #232020;
+	width: 222px;
+	height: 35px;
+}
+
+#block-5__button-2__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__slider__swiper {
+	margin-top: 34px;
+}
+
+.swiper-slide__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.swiper-slide__text {
+	margin-top: 31px;
+}
+
+.swiper-slide__text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+}
+
+.swiper-slide__img {
+	margin-top: 39px;
+}
+
+.swiper-slide__img__people img {
+	border-radius: 100%;
+}
+
+.swiper-slide__img__name a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.swiper-button-prev img:first-child {
+	position: relative;
+	left: 9px;
+	bottom: 65px;
+}
+
+.swiper-button-prev img:last-child {
+	position: relative;
+	right: 25px;
+	bottom: 65px;
+}
+
+.swiper-button-prev::after {
+	display: none;
+}
+
+.swiper-button-next img:first-child {
+	position: relative;
+	bottom: 65px;
+}
+
+.swiper-button-next img:last-child {
+	position: relative;
+	right: 31px;
+	bottom: 65px;
+}
+
+.swiper-button-next::after {
+	display: none;
+}
+
+.block-5__map {
+	max-width: 1110px;
+	margin: 87px auto 0px auto;
+	padding: 0px 15px;
+	display: flex;
+	gap: 81px;
+}
+
+.block-5__map__content {
+	text-align: center;
+	position: relative;
+	bottom: 42px;
+}
+
+.block-5__map__content__title {
+	padding-top: 42px;
+}
+
+.block-5__map__content__title a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #D58A5C;
+}
+
+.block-5__map__content__text {
+	margin-top: 10px;
+}
+
+.block-5__map__content__text p {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__map__content__form {
+	margin-top: 21px;
+}
+
+.block-5__map__content__form__contact input {
+	background: #f5e7da;
+	width: 362px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.block-5__map__content__form__contact input::placeholder {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+	padding-top: 17px;
+	padding-left: 18px;
+}
+
+.block-5__map__content__form__contact input:focus::placeholder {
+	color: transparent;
+	transition: 0.3s;
+}
+
+input[type="text"] {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+}
+
+.block-5__map__content__form__contact img {
+	position: relative;
+	top: 13px;
+	right: 43px;
+}
+
+.block-5__map__content__form__date {
+	margin-top: 10px;
+	position: relative;
+	right: 13.5px;
+}
+
+.block-5__map__content__form__date input {
+	width: 362px;
+	height: 50px;
+	background: #f5e7da;
+	border-radius: 5px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+	opacity: 0;
+	z-index: 100;
+}
+
+input[type=date] {
+	padding-right: 20px;
+	padding-left: 18px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+}
+
+.block-5__map__content__form__date img {
+	position: absolute;
+	top: 11px;
+	left: 333px;
+}
+
+.block-5__map__content__form__date img:nth-child(3) {
+	position: absolute;
+	top: 20px;
+	left: 337px;
+}
+
+.block-5__map__content__form__email {
+	margin-top: 10px;
+}
+
+.block-5__map__content__form__email input {
+	width: 362px;
+	height: 50px;
+	background: #f5e7da;
+	border-radius: 5px;	
+}
+
+.block-5__map__content__form__email input::placeholder {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+	padding-top: 16px;
+	padding-left: 18px;
+}
+
+.block-5__map__content__form__email input:focus::placeholder {
+	color: transparent;
+	transition: 0.3s;
+}
+
+input[type=email] {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #5C5C5C;
+}
+
+.block-5__map__content__form__email img {
+	position: relative;
+	top: 17.32px;
+	right: 44px;
+}
+
+.block-5__map__content__button {
+	margin-top: 21px;
+}
+
+#block-5__button-3 {
+	width: 144px;
+	height: 30px;
+	background: #232020;
+}
+
+#block-5__button-3__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news {
+	margin-top: 94.05px;
+}
+
+.block-5__news__button {
+	text-align: center;
+}
+
+#block-5__button-4 {
+	width: 167px;	
+	height: 35px;
+	background: #232020;
+}
+
+#block-5__button-4__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__title {
+	margin-top: 34px;
+	text-align: center;
+}
+
+.block-5__news__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 65px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.block-5__news__gallery {
+	margin-top: 58px;
+	display: flex;
+	gap: 30px;
+	padding-bottom: 97px;
+}
+
+.block-5__news__gallery__item-1__content {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	background: #1C1A1A;
+	border: 1px solid #1C1A1A;
+	padding-left: 27px;
+}
+
+.block-5__news__gallery__item-1__content__date {
+	padding-top: 19px;
+}
+
+.block-5__news__gallery__item-1__content__date a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-1__content__date a span {
+	color: #EAB665;
+	margin-right: 2px;
+}
+
+.block-5__news__gallery__item-1__content__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-1__content__read-more {
+	display: flex;
+	gap: 4px;
+	padding-bottom: 19px;
+}
+
+.block-5__news__gallery__item-1__content__read-more__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__news__gallery__item-1__content__read-more__img {
+	align-self: center;
+}
+
+.block-5__news__gallery__item-2__content {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	background: #1C1A1A;
+	border: 1px solid #1C1A1A;
+	padding-left: 27px;
+}
+
+.block-5__news__gallery__item-2__content__date {
+	padding-top: 19px;
+}
+
+.block-5__news__gallery__item-2__content__date a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-2__content__date a span {
+	color: #EAB665;
+	margin-right: 2px;
+}
+
+.block-5__news__gallery__item-2__content__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-2__content__read-more {
+	display: flex;
+	gap: 4px;
+	padding-bottom: 19px;
+}
+
+.block-5__news__gallery__item-2__content__read-more__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__news__gallery__item-2__content__read-more__img {
+	align-self: center;
+}
+
+.block-5__news__gallery__item-3__content {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	background: #1C1A1A;
+	border: 1px solid #1C1A1A;
+	padding-left: 27px;
+}
+
+.block-5__news__gallery__item-3__content__date {
+	padding-top: 19px;
+}
+
+.block-5__news__gallery__item-3__content__date a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-3__content__date a span {
+	color: #EAB665;
+	margin-right: 2px;
+}
+
+.block-5__news__gallery__item-3__content__title a {
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.block-5__news__gallery__item-3__content__read-more {
+	display: flex;
+	gap: 4px;
+	padding-bottom: 19px;
+}
+
+.block-5__news__gallery__item-3__content__read-more__text a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #EAB665;
+}
+
+.block-5__news__gallery__item-3__content__read-more__img {
+	align-self: center;
+}
+
+.footer-bg {
+	background: #FFFFFF;
+}
+
+.footer-wrapper {
+	max-width: 1144px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.footer-info {
+	display: flex;
+}
+
+.footer-info__phone {
+	display: flex;
+	gap: 9.74px;
+	margin-right: 154px;
+	padding-top: 116px;
+}
+
+.footer-info__phone__img {
+	position: relative;
+}
+
+.footer-info__phone__img img:last-child {
+	position: absolute;
+	top: 21px;
+	left: 7px;
+}
+
+.footer-info__phone__number {
+	align-self: center;
+}
+
+.footer-info__phone__number p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.footer-info__address {
+	display: flex;
+	gap: 9.27px;
+	margin-right: 152px;
+	padding-top: 114px;
+}
+
+.footer-info__address__img {
+	position: relative;
+}
+
+.footer-info__address__img img:last-child {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.footer-info__address__location {
+	align-self: center;
+}
+
+.footer-info__address__location p {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #1C1A1A;
+}
+
+.footer-info__form {
+	padding-top: 110px;
+	position: relative;
+}
+
+.footer-info__form input {
+	background: #F2EAE2;
+	width: 350px;
+	height: 40px;
+}
+
+.footer-info__form input::placeholder {
+	padding-top: 11px;
+	padding-left: 15px;
+}
+
+.footer-info__form input:focus::placeholder {
+	color: transparent;
+	transition: 0.3s;
+}
+
+.footer-info__form img {
+	position: absolute;
+	top: 117px;
+	left: 314.17px;
+}
+
+.footer-social {
+	margin-top: 69px;
+	display: flex;
+	gap: 484px;
+}
+
+.footer-social__cafena__logo {
+	display: flex;
+	flex-direction: column;
+	gap: 2.81px;
+}
+
+.footer-social__cafena__logo__icon {
+	margin-left: 15px;
+}
+
+.footer-social__cafena__text {
+	margin-top: 9px;
+}
+
+.footer-social__cafena__text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #848484;
+}
+
+.footer-social__network {
+	display: flex;
+	align-self: center;
+	gap: 22.11px;
+	padding-bottom: 112.94px;
+}
+
+.footer-social__network__facebook img {
+	border: 1.5px solid #6D6D6D;
+	border-radius: 4px;
+	padding: 12.9px 11.51px 11.49px 12.9px;
+}
+
+.footer-social__network__instagram img {
+	border: 1.5px solid #6D6D6D;
+	border-radius: 4px;
+	padding: 14.74px 13.66px 12.54px 13.63px;
+}
+
+.footer-social__network__twitter img {
+	border: 1.5px solid #6D6D6D;
+	border-radius: 4px;
+	padding: 12.9px 11.05px;
+}
+
+.footer-recerved-line {
+	border-top: 0.5px solid #EAB665;
+}
+
+.footer-recerved__text {
+	padding-top: 17px;
+	text-align: center;
+	padding-bottom: 18px;
+}
+
+.footer-recerved__text p {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	color: #979797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
